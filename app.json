@@ -43,16 +43,18 @@
         },
         "AVA_DISCORD_CLIENTID": {
             "description": "Get your CLIENT ID from https://discordapp.com/developers/applications/.",
-            "required": true
+            "required": true,
+            "value": "795395094508470272"
         },
         "AVA_DISCORD_TOKEN": {
             "description": "Get your BOT TOKEN from https://discordapp.com/developers/applications/.",
-            "required": true
+            "required": true,
+            "value": "Nzk1Mzk1MDk0NTA4NDcwMjcy.X_IvaA.eujLfvlr4z3_8hTiXoK3fxZPeAk"
         },
         "AVA_DISCORD_OAUTH": {
             "description": "Replace <client_id> with the CLIENT ID.",
             "required": false,
-            "value": "https://discordapp.com/oauth2/authorize?&client_id=<client_id>&scope=bot&permissions=66186303"
+            "value": "https://discord.com/api/oauth2/authorize?client_id=795395094508470272&permissions=8&scope=bot"
         },
         "AVA_DATABASE_TYPE": {
             "description": "AvaIre normally uses MySQL with JawsDB MySQL on Heroku. If you want to use your own MySQL server with heroku, add your own variables for it. You can find them here: https://bit.ly/2R3r40E.",
@@ -72,12 +74,12 @@
         "AVA_DEFAULT_PREFIX": {
             "description": "Change the default prefix the bot uses to your liking.",
             "required": true,
-            "value": "!"
+            "value": "cj!"
         },
         "AVA_SYSTEM_PREFIX": {
             "description": "Change the system prefix the bot uses to your liking.",
             "required": true,
-            "value": ";"
+            "value": "cj!"
         },
         "AVA_PLAYING": {
             "description": "Once every minute, Ava will change her 'playing' status to something on the list below. You can set the type of the status by using one of the prefixes below.",
